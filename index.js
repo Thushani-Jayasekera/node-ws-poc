@@ -65,9 +65,9 @@ wss.on('connection', function connection(ws) {
 });
 
 // Start the REST server
-restServer.listen(9099, () => {
-    console.log('REST server started on port 9099');
-});
+// restServer.listen(9099, () => {
+//     console.log('REST server started on port 9099');
+// });
 
 // Start the WebSocket server
 wsServer.listen(9099, () => {
