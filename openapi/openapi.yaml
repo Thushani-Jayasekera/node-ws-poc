@@ -4,7 +4,7 @@ info:
   description: API for pushing text payloads
   version: 1.0.0
 servers:
-  - url: localhost:9098
+  - url: localhost:9099
 paths:
   /push:
     post:

@@ -70,6 +70,6 @@ restServer.listen(9099, () => {
 });
 
 // Start the WebSocket server
-wsServer.listen(9098, () => {
-    console.log('WebSocket server started on port 9098');
+wsServer.listen(9099, () => {
+    console.log('WebSocket server started on port 9099');
 });
